@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pesan_card">
+    <RelativeLayout
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+    >
+        <TextView
+                android:id="@+id/judulPesan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loremipsum"
+                android:fontFamily="@font/gotham_medium"
+        />
+        <TextView
+                android:id="@+id/isiPesan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/judulPesan"
+                android:text="@string/loremipsum"
+                android:fontFamily="@font/gotham_light"
+                android:textSize="12sp"
+        />
+        <TextView
+                android:layout_toEndOf="@id/judulPesan"
+                android:id="@+id/waktuMasuk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:layout_alignParentEnd="true"
+                android:text="@string/waktu"
+                android:fontFamily="@font/gotham_semibold"
+                android:textSize="@dimen/medium"
+
+        />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
