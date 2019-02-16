@@ -9,6 +9,10 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".Test">
+        </activity>
+        <activity android:name=".Splash">
+        </activity>
         <activity android:name=".RewardKader">
         </activity>
         <activity android:name=".CardReward">
@@ -19,7 +23,7 @@
         <activity android:name=".KategoriPendataan"/>
         <activity android:name=".Profile"/>
         <activity android:name=".Home"/>
-        <activity android:name=".Test">
+        <activity android:name=".Spalashdua">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
