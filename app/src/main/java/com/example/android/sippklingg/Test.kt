@@ -21,6 +21,7 @@ class Test : AppCompatActivity() {
         btnReward.setOnClickListener { startActivity(intentFor<CardReward>()) }
         btnPesan.setOnClickListener { startActivity(intentFor<pesan_card>()) }
         btnRewardKader.setOnClickListener { startActivity(intentFor<RewardKader>()) }
+        btnEmpty.setOnClickListener { startActivity(intentFor<Empty>()) }
     }
 
 

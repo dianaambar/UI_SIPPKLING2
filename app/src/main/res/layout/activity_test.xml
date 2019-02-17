@@ -66,4 +66,13 @@
             app:layout_constraintTop_toBottomOf="@id/btnPesan"
     />
 
+    <Button
+            android:id="@+id/btnEmpty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="Empty"
+            app:layout_constraintTop_toBottomOf="@id/btnRewardKader"
+    />
+
 </android.support.constraint.ConstraintLayout>
